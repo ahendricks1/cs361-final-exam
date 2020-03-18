@@ -4,7 +4,6 @@ class RoadBike
 
   def initialize
     @panniers = [Pannier.new, Pannier.new]
-    @weekly_rate = @daily_rate  * 7
     @daily_rate = 15
   end
 
@@ -25,7 +24,7 @@ class RoadBike
   end
 
   def weekly_rate
-    @weekly_rate
+    daily_rate * 7
   end
 
 end
