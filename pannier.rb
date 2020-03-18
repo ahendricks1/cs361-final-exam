@@ -9,22 +9,3 @@ class Pannier
   end
 
   end
-
-
-
-  # def weight
-  #   @weight
-  # end
-
-
-
-
-
-
-
-
-
-
-
-
-
