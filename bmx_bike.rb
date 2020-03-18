@@ -22,7 +22,7 @@ class BmxBike
   end
 
   def tail_pack_price
-    @tail_pack.price
+    tail_pack.price
   end
 
   def weekly_rate
