@@ -27,4 +27,12 @@ class RoadBike
     daily_rate * 7
   end
 
+  def panniers_price
+    total = 0
+    panniers.each do |x|
+      total += x.price
+    end
+    return total
+  end
+
 end
