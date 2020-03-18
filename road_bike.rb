@@ -7,6 +7,10 @@ class RoadBike
     @daily_rate = 15
   end
 
+  def prepare
+    weekly_rate + panniers_price
+  end
+
   def clean
     puts "Cleaning..."
   end
